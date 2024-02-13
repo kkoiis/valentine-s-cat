@@ -16,7 +16,7 @@ function resetTimer() {
   timer = setTimeout(returnToOriginalImage, 2500);
 }
 
-document.querySelector(".cat").addEventListener("click", function () {
+document.querySelector(".cat").addEventListener("click", function (event) {
   cat.style.backgroundImage = `url(${clickedBgImage})`;
   cat_message.style.visibility = "visible";
 

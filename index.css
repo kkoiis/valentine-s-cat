@@ -22,6 +22,14 @@
 }
 
 .cat {
+  -webkit-tap-highlight-color: transparent !important; /* Убирает подсветку при касании для Safari, Chrome и Opera */
+  -webkit-touch-callout: none !important; /* Запрещает браузеру показывать контекстное меню при долгом нажатии */
+  -webkit-user-select: none !important; /* Запрещает выделение содержимого элемента */
+  -moz-user-select: none !important; /* Запрещает выделение содержимого элемента для Firefox */
+  -ms-user-select: none !important; /* Запрещает выделение содержимого элемента для Internet Explorer */
+  user-select: none !important; /* Запрещает выделение содержимого элемента */
+  outline: none !important; /* Убирает контур вокруг элемента при активации */
+
   position: relative;
   width: 200px;
   height: 200px;
